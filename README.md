@@ -74,8 +74,8 @@ Will need to execute remaining commands in new terminal for `cmake` to be recogn
 
 Verify that git is installed by using `git --version`; install if necessary.
 
-If you do not want to set up OpenCV on your own you can simply let this package auto install OpenCV 3.4 + <a href="https://github.com/opencv/opencv_contrib"><b>OpenCV contrib 3.4</b></a> (might take some time):
-``` bash
+If you do not want to set up OpenCV on your own you can simply let this package auto install OpenCV 3.4 + <a href="https://github.com/opencv/opencv_contrib"><b>OpenCV contrib 3.4</b></a>  (might take some tim    e):
+``` b   ash
 $ npm i -g opencv4nodejs
 ```
 
@@ -97,6 +97,6 @@ I chose to add a `NODE_PATH` environment variable. The install path will be disp
 3. Set system environmental variables like image here
 
 4. go to project folder and run 
-   ```bash
-    npm install opencvnodejs --save
-   ```
+    ``` bash
+    $ npm i -g opencv4nodejs
+    ```
